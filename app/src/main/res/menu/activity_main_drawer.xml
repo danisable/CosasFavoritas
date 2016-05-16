@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Registro"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Registro" />
+        <item
+            android:id="@+id/nav_Lista"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Lista" />
+        <item
+            android:id="@+id/nav_Yo"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Yo" />
+
+    </group>
+
+</menu>

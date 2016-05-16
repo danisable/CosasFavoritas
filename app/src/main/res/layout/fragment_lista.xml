@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mx.com.danisable.cosasfavoritas.Lista"
+    android:orientation="vertical"
+    android:id="@+id/lLista">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spTIPO"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="TITULO CREADOR AÑO CALIFICACION"
+        android:id="@+id/textView3"
+        android:textAlignment="center" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lvFavoritos"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center" />
+
+</LinearLayout>
